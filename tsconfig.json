@@ -2,6 +2,16 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "auto-complete-lazy-loading": [
+        "dist/auto-complete-lazy-loading/auto-complete-lazy-loading",
+        "dist/auto-complete-lazy-loading"
+      ],
+      "ngx-auto-complete-lazy-loading": [
+        "dist/ngx-auto-complete-lazy-loading/ngx-auto-complete-lazy-loading",
+        "dist/ngx-auto-complete-lazy-loading"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
